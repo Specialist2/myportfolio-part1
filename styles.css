@@ -1,0 +1,19 @@
+header {
+  background-color: #efeff6;
+  justify-content: space-between;
+  display: flex;
+  border-radius: 30px;
+  background-size: cover;
+  font-size: small;
+  margin: 10px;
+  padding: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+header nav ul {
+  gap: 20px;
+  list-style-type: none;
+  display: flex;
+  color: white;
+}
