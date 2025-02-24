@@ -17,3 +17,13 @@ header nav ul {
   display: flex;
   color: white;
 }
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+
+.typewriter {
+  font-weight: bold;
+  font-style: italic;
+}
