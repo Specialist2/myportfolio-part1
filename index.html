@@ -11,10 +11,8 @@
     <main>
       <header>
         <p>
-          <marquee
-            >Thank you for visiting my portfolio.. Let's build something great
-            together!!!</marquee
-          >
+          Thank you for visiting my portfolio.. Let's build something great
+          together!!!
         </p>
 
         <h1>
@@ -46,19 +44,25 @@
           </ul>
         </nav>
       </header>
+      <section class="intro">
+        <video autoplay loop playsinline id="section-video">
+          <source src="./amazingcode.mp4" type="video/mp4" />
+        </video>
+        <img src="./1.jpeg" alt="profile" class="profile-image" />
 
-      <img src="./1.jpeg" alt="profile" class="profile-image" />
-      <p class="ps">
-        Hi, I'm
-        <span class="typewriter"
-          >Isaiah Kiprono Rotich, a Full-Stack Developer.</span
-        >
-        <br />
-        I build scalable web application with seamlesss user experience. Skilled
-        in <br />both frontend and backend development,I transform into
-        fuctional digital solutions.
-      </p>
-      <button class="hire-me">Hire ME</button>
+        <p class="ps">
+          Hi, I'm
+          <span class="typewriter"
+            >Isaiah Kiprono Rotich, a Full-Stack Developer.</span
+          >
+          <br />
+          I build scalable web application with seamlesss user experience.
+          Skilled in <br />both frontend and backend development,I transform
+          into fuctional digital solutions.
+        </p>
+
+        <button class="hire-me">Hire ME</button>
+      </section>
 
       <section class="about-me">
         <h1>About Me</h1>
@@ -90,7 +94,7 @@
       <section class="experience">
         <h1>Experience</h1>
         <h4>Freelancer</h4>
-
+        <p>I gained experience working as a freelancer with platform like;</p>
         <h4>Upwork(1 year):</h4>
         <p>on web development,transcription, and data entry.</p>
         <h4>Remotask (2 years):</h4>
@@ -103,16 +107,7 @@
           alt=""
           class="my-image"
         />
-        <div class="testimonies">
-          <h1>Testimonies</h1>
-          <p>23/02/2025<br /></p>
-          <p>
-            "Isaiah delivered expectations. His full-stack solutions are
-            top-notch<br />
-            and user-friendly."<br />
-          </p>
-          <p class="williams">_Steve Williams_Upwork</p>
-        </div>
+
         <div class="testimonies">
           <h1>Testimonies</h1>
           <p>18/06/2024<br /></p>
@@ -133,22 +128,50 @@
         </div>
       </section>
 
-      <div class="contact-me">
-        <h2>Contact Me</h2>
-        <img src="./call-outline.svg" alt="" />
-        <p>Phone: +254793-528-525</p>
-        <img src="./mail-outline.svg" alt="" />
-        <p>Email: isaiahrotich51@gmail.com</p>
-      </div>
-      <section class="Contact-form">
-        <h2>Contact Form</h2>
-        <label>Full Name</label>
-        <input type="text" />
-        <lable>Email</lable>
-        <input type="email" placeholder="Enter your email" />
-        <textarea placeholder="write me your message.."></textarea>
-        <button>Submit</button>
+      <section class="sec">
+        <div class="contact-me">
+          <h2>Contact Me</h2>
+          <div class="icon">
+            <img src="./call-outline.svg" alt="" />
+            <span>+254793-528-525</span>
+          </div>
+          <div class="icon">
+            <img src="./mail-outline.svg" alt="" />
+            <span>isaiahrotich51@gmail.com</span>
+          </div>
+        </div>
+        <section class="contact-form">
+          <h2>Contact Form</h2>
+
+          <div>
+            <label class="name">Full Name:</label>
+            <input type="text" />
+          </div>
+
+          <div>
+            <label class="phone">Phone No:</label>
+            <input type="tel" placeholder="+2547xxxxxxxx" />
+          </div>
+          <div>
+            <lable class="email">Email:</lable>
+            <input type="email" placeholder="Enter your email" />
+          </div>
+          <div>
+            <p>Leave a message here!!</p>
+            <p>
+              <textarea
+                class="text-area"
+                placeholder="write me your message.."
+              ></textarea>
+            </p>
+          </div>
+
+          <div>
+            <button><a href="#">Submit</a></button>
+          </div>
+        </section>
       </section>
+
       <section>
         <img src="./logo-facebook (1).svg" alt="" />
         <img src="./logo-linkedin.svg" alt="" />
