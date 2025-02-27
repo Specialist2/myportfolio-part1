@@ -1,42 +1,50 @@
 header {
-  background-color: hsl(241, 47%, 56%);
+  background-color: hsl(241, 77%, 38%);
   color: white;
   justify-content: space-between;
   display: flex;
   background-size: cover;
   font-size: small;
-  margin: 0px;
+
   padding: 0px;
   padding-left: 5px;
   padding-right: 5px;
+  margin-top: -10px;
   align-items: center;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
+  /* border-top-right-radius: 30px;
+  border-top-left-radius: 30px; */
 }
 header a {
   color: white;
   text-decoration: none;
+  margin-right: 0px;
+}
+header h1 {
+  margin-left: 10px;
 }
 .middle {
   color: rgb(0, 242, 255);
   align-items: center;
   display: flex;
+  white-space: nowrap;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .intro {
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-image: url(./gried.avif); */
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 10px;
+  padding: 150px;
   overflow: hidden;
   position: relative;
-  z-index: 0;
+
+  /* z-index: 0; */
   align-items: center;
   justify-content: center;
   height: 395px;
 }
-#section-video {
+/* #section-video {
   top: 0;
   left: 0;
   position: absolute;
@@ -44,7 +52,7 @@ header a {
   height: 100%;
   object-fit: cover;
   z-index: 0;
-}
+} */
 
 .profile-image {
   width: 300px;
@@ -54,16 +62,17 @@ header a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
+
+  /* position: relative; */
 }
 .typewriter {
   font-weight: bolder;
   font-style: italic;
-  position: relative;
+  /* position: relative; */
   color: white;
 }
 .ps {
-  background-color: black;
+  /* background-color: black; */
 
   color: white;
   text-align: center;
@@ -101,26 +110,30 @@ header nav ul {
   margin-top: 30px;
   margin-bottom: 30px;
   font-weight: bold;
-  position: relative;
+  /* position: relative; */
 }
 .hire-me:hover {
   background-color: green;
-  transform: scale(1: 5);
+  transform: scale(1.5);
 }
 body {
   /* background-color: rgb(239, 168, 14); */
-  background-image: url(./withlamp.avif);
+  background-image: url(./gried.avif);
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: large;
 }
 
 .about-me {
-  background-color: rgb(110, 27, 27);
+  /* background-color: rgb(95, 3, 3); */
+
   background-size: cover;
   color: white;
   text-align: center;
-
   padding: 20px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
   h1 {
     margin-left: 40px;
     margin-top: 20px;
@@ -132,7 +145,7 @@ body {
   }
 }
 .skills {
-  background-image: url(./pexels-danny-meneses-340146-943096.jpg);
+  /* background-image: url(./pexels-danny-meneses-340146-943096.jpg); */
   animation: moveBackground 10s linear infinite;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,23 +157,25 @@ body {
 
   p {
     color: yellow;
-    margin-left: 300px;
+    margin-left: 550px;
+    font-weight: bold;
   }
 }
 h1 {
-  margin-left: 300px;
+  margin-left: 550px;
 }
 h3 {
   font-style: oblique;
-  margin-left: 300px;
+  margin-left: 500px;
 }
 p {
   margin-left: 50px;
 }
 
 .experience {
-  background-color: rgb(93, 11, 118);
+  /* background-color: rgb(93, 11, 118); */
   color: white;
+  /* background-image: url(./drop.webp); */
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px;
@@ -201,62 +216,88 @@ p {
 }
 .cta:hover {
   background-color: green;
-  transform: scale(1: 5);
+  transform: scale(1.5);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .testimonies {
   display: flex;
   flex-direction: column;
-  background-color: rgb(57, 59, 108);
+  /* background-color: rgb(57, 59, 108); */
   margin-top: 0px;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding: 30px;
+  /* padding: 30px; */
 
-  overflow: visible;
+  /* overflow: visible; */
+}
+.testimonies h1 {
+  margin-left: 20px;
+  text-align: center;
+}
+.testimonies p1 {
+  text-align: center;
 }
 .my-image {
   height: auto;
+  width: 450px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.my-image:hover {
+  transform: scale(1.5);
+  align-items: center;
 }
 .williams {
   color: yellow;
 }
 .sec {
   display: flex;
-  background-color: #ff0000;
+  /* background-color: #ff0000; */
   width: 100%;
 }
 .contact-me {
   display: flex;
-  justify-content: center;
-  align-items: center;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: 10px;
   white-space: nowrap;
   flex-direction: column;
-
   gap: 16px;
   flex: 1;
   color: white;
-  margin-top: -10px;
+  margin-top: 7px;
+  h2 {
+    margin-top: 50px;
+  }
+
   .icon {
+    color: white;
     display: flex;
     width: 20px;
     height: 20px;
     gap: 10px;
+    background-color: white;
+    border-radius: 60px;
+    padding: 5px;
   }
 }
 .contact-form {
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  /* border-top-left
+-radius: 30px;
+  border-bottom-right-radius: 30px; */
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-color: blueviolet;
+  background-image: url(./good.avif);
+  /* background-color: blueviolet; */
   flex: 1;
 
   h2 {
     margin-left: 80px;
+    color: white;
   }
 }
 
@@ -278,10 +319,14 @@ P {
 }
 
 .name {
+  color: white;
   padding: 37px;
   line-height: 30px;
+  font-weight: bold;
 }
 .phone {
+  font-weight: bold;
+  color: white;
   padding: 45px;
   line-height: 30px;
 }
@@ -292,6 +337,36 @@ p .text-area {
   background-color: rgb(73, 64, 75);
 }
 .email {
+  color: white;
   padding: 57px;
   line-height: 30px;
+  font-weight: bold;
+}
+.footer {
+  /* background-image: url(./photo-1464639351491-a172c2aa2911.avif); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  gap: 50px;
+}
+.footer img {
+  flex-direction: column;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  background-color: white;
+  border-radius: 25px;
+}
+.footer p {
+  color: white;
+  margin-left: 0px;
+}
+.footer img:hover {
+  transform: scale(1.5);
+  background-color: #da31cb;
+  border-radius: 30px;
+
+  width: 50px;
+  height: 50px;
 }
